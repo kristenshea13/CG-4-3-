@@ -8,7 +8,8 @@ namespace CG_4_3__raffle_
         {
             Console.WriteLine("Raffle");
 
-           
+            //ask number of names
+
             Console.Write($"Enter name 1:  ");
             string nameOne = Console.ReadLine();
 

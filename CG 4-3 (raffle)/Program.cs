@@ -9,8 +9,7 @@ namespace CG_4_3__raffle_
 
 
             Console.WriteLine("Raffle");
-           
-            Console.WriteLine($"Enter up to 30 names, hit enter key after each.  ");
+            Console.WriteLine("Enter up to 30 names, hit enter key after each.  ");
             
 
             //declare array

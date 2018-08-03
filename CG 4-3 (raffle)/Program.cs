@@ -9,6 +9,8 @@ namespace CG_4_3__raffle_
 
 
             Console.WriteLine("Raffle");
+            Console.WriteLine();
+            //I wanted a blank line between title of program and first command so i added a blank Console.WriteLine();
             Console.WriteLine("Enter up to 30 names, hit enter key after each.  ");
             
 
@@ -54,8 +56,9 @@ namespace CG_4_3__raffle_
             {
                 if (L == winnerName)
                     continue;
-                //if statement using *continue* to skip over winner name and continue printing the rest of the names to console
+                //if statement using *continue* to skip over winner name and continue the rest of the loop
                 Console.WriteLine(userNames[L]);
+                //write user names except for winnerName to console
             }
 
             

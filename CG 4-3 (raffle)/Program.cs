@@ -34,6 +34,14 @@ namespace CG_4_3__raffle_
 
                 //add *break* to break out of loop if user enters blank entry
                 //use if statement and if null or white space because they are finished making entries 
+                
+                //string isNull = null;
+                //string isNotNull = "test";
+                //whenever possible use empty and initialize your variable to something
+                //string isEmpty = "";
+                //string isAlsoEmpty = string.Empty;
+
+
                 if (string.IsNullOrWhiteSpace(raffleInfo)) break;
                 number = i;
                 //this variable was declared as an integer above, needed to be assigned the value of the number of each name
@@ -43,6 +51,8 @@ namespace CG_4_3__raffle_
 
             //to randomize user input names to get winner name
             var rnd = new Random();
+            //options: Random randomizer = new Random();
+            //
             var winnerName = rnd.Next(number);
             Console.WriteLine($"The raffle winner is: { userNames[winnerName]}!");
             //print winner name from randomized choice from inside array
